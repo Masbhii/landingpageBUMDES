@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kita Bikin Memories</title>
+    <link rel="icon" type="image/x-icon" href="public/favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto&family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet"/>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <body class="bg-white">
+        <header class="flex justify-between items-center p-6">
+            <div>
+                <img src="https://storage.googleapis.com/a1aa/image/v66pPL042M-eDYCxc7s7WZRRJ3xkcAH2qCMoqN92jik.jpg" alt="Logo" class="h-10" width="50" height="50">
+            </div>
+            <nav class="flex-1">
+                <ul class="flex justify-center space-x-8 text-lg">
+                    <li><a href="#" class="text-black hover:text-gray-700">Home</a></li>
+                    <li><a href="#" class="text-black hover:text-gray-700">About</a></li>
+                    <li><a href="#" class="text-black hover:text-gray-700">Projects</a></li>
+                    <li><a href="#" class="text-black hover:text-gray-700">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="relative">
+            <div class="px-6">
+                <img src="https://storage.googleapis.com/a1aa/image/mxuDJSXYgHTi21g80V4FYyGMhOskCAFWjb7X2WGFh5A.jpg" alt="Modern house with wooden exterior and large glass windows surrounded by trees" class="w-full h-auto custom-rounded" width="1280" height="700">
+            </div>
+            <div class="absolute top-1/4 left-16 bg-white p-8 rounded-lg shadow-lg max-w-md">
+                <h1 class="text-4xl custom-font mb-4">Redefining the Art of Architecture</h1>
+                <p class="text-lg mb-6">Discover spaces where innovation meets nature.</p>
+                <div class="flex space-x-4">
+                    <button class="bg-black text-white px-6 py-3 rounded-lg btn-hover">Explore Projects</button>
+                    <button class="border border-black text-black px-6 py-3 rounded-lg btn-inverse">Learn More</button>
+                </div>
+            </div>
+        </main>
+    </body>
+    </section>
+
+    <section class="full-page">
+        <main class="flex flex-col md:flex-row justify-between items-center p-6 md:p-12">
+            <div class="md:w-1/2 mb-8 md:mb-0">
+             <p class="text-2xl md:text-3xl lg:text-4xl leading-relaxed">
+              North Architecture is a dynamic and innovative design firm based in the heart of the architectural world.
+             </p>
+            </div>
+            <div class="md:w-1/2 flex flex-col space-y-4">
+             <div class="flex space-x-4">
+              <div class="bg-gray-100 p-6 rounded-lg text-center w-1/2">
+               <p class="text-3xl font-bold">
+                24+
+               </p>
+               <p class="text-lg">
+                Years of Experience
+               </p>
+              </div>
+              <div class="bg-gray-100 p-6 rounded-lg text-center w-1/2">
+               <p class="text-3xl font-bold">
+                200+
+               </p>
+               <p class="text-lg">
+                Completed Projects
+               </p>
+              </div>
+             </div>
+             <div class="bg-gray-100 p-6 rounded-lg text-center">
+              <p class="text-3xl font-bold">
+               100%
+              </p>
+              <p class="text-lg">
+               Client Satisfaction
+              </p>
+             </div>
+            </div>
+           </main>
+    </section>
+
+    <section id="about">
+        <main class="flex flex-col lg:flex-row items-center lg:items-start lg:space-x-8 p-6 lg:p-16">
+            <div class="lg:w-1/2 space-y-6">
+             <h1 class="text-4xl font-bold">
+              North Architecture
+             </h1>
+             <p class="text-lg">
+              Welcome to North Architecture, where dreams take shape and spaces come alive.
+                         Our story is one of passion, innovation, and a relentless pursuit of architectural
+                         excellence. With a legacy spanning over two decades, we have crafted iconic
+                         structures that redefine skylines and inspire awe.
+             </p>
+             <p class="text-lg">
+              From the inception of our firm, we have been driven by a singular vision: to create
+                         spaces that not only fulfill functional requirements but also ignite emotions. Our team
+                         of talented architects, designers, and engineers collaborate seamlessly to bring forth
+                         unique designs that push the boundaries of imagination.
+             </p>
+            </div>
+            <div class="lg:w-1/2 mt-8 lg:mt-0">
+             <img alt="Modern architectural building surrounded by nature" class="rounded-lg shadow-lg" height="400" src="https://storage.googleapis.com/a1aa/image/C4EJn_qJFvgrka7KumOUPJOpHB-R13kZoffS3meT868.jpg" width="600"/>
+            </div>
+           </main>
+    </section>
+
+    <section class="bg-white border-b py-8">
+        <div class="container max-w-5xl mx-auto m-8">
+            <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
+                STRUKTUR ORGANISASI
+            </h2>
+    
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Struktur Organisasi BUMDES</title>
+            </head>
+    
+            <body>
+                <div class="page-container">
+                    <!-- Separator for previous page -->
+                    <hr class="separator">
+    
+                    <!-- Organizational Chart -->
+                    <div class="org-chart-container">
+                        <div class="org-chart">
+                            <ul>
+                                <li>
+                                    <div class="position">
+                                        <div class="title">PENASIHAT</div>
+                                        <div class="name">Ade Obih</div>
+                                    </div>
+                                    <ul>
+                                        <li>
+                                            <div class="position">
+                                                <div class="title">PENGAWAS</div>
+                                                <div class="name">H. Ayi Sudrajat</div>
+                                            </div>
+                                            <ul>
+                                                <li>
+                                                    <div class="position">
+                                                        <div class="title">KETUA</div>
+                                                        <div class="name">Dedi Komarna</div>
+                                                    </div>
+                                                    <ul>
+                                                        <li>
+                                                            <div class="position">
+                                                                <div class="title">SEKRETARIS</div>
+                                                                <div class="name">Nanny Restu Septiani</div>
+                                                            </div>
+                                                            <ul>
+                                                                <li>
+                                                                    <div class="position">
+                                                                        <div class="title">BENDAHARA</div>
+                                                                        <div class="name">Asep Adang Rusnawan</div>
+                                                                    </div>
+                                                                    <ul class="kaur-units">
+                                                                        <li class="kaur-unit">
+                                                                            <div class="position">
+                                                                                <div class="title">KAUR UNIT USAHA AIR
+                                                                                    PAMDES</div>
+                                                                                <div class="name">Cecep Martadinata</div>
+                                                                            </div>
+                                                                        </li>
+                                                                        <li class="kaur-unit">
+                                                                            <div class="position">
+                                                                                <div class="title">KAUR UNIT USAHA KANTIN
+                                                                                    GOR DESA</div>
+                                                                                <div class="name">Wawan S</div>
+                                                                            </div>
+                                                                        </li>
+                                                                    </ul>
+                                                                </li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                        </div>
+                    </div>
+        </section>
+
+        <main class="flex flex-col lg:flex-row items-start lg:items-center justify-between p-6 lg:p-12">
+            <div class="lg:w-1/2">
+                <h1 class="text-5xl font-light mb-6">Contact</h1>
+                <address class="not-italic mb-6">
+                    <p>3891 Ranchview Dr. Richardson, California 62639</p>
+                    <p>000-000-0012</p>
+                    <p>north@architecture.com</p>
+                </address>
+                <form class="space-y-4">
+                    <div class="flex space-x-4">
+                        <input class="w-1/2 p-4 border border-gray-300 rounded-md" placeholder="Name" type="text"/>
+                        <input class="w-1/2 p-4 border border-gray-300 rounded-md" placeholder="Email" type="email"/>
+                    </div>
+                    <div class="flex space-x-4">
+                        <input class="w-1/2 p-4 border border-gray-300 rounded-md" placeholder="RT" type="text"/>
+                        <input class="w-1/2 p-4 border border-gray-300 rounded-md" placeholder="RW" type="text"/>
+                    </div>
+                    <textarea class="w-full p-4 border border-gray-300 rounded-md h-32" placeholder="Message"></textarea>
+                    <button class="w-full p-4 bg-black text-white rounded-md" type="submit">Send Message</button>
+                </form>
+            </div>
+            <div class="lg:w-1/2 mt-6 lg:mt-0 lg:ml-12">
+                <img alt="Modern living room with large windows overlooking a scenic view" class="rounded-lg" height="400" src="https://storage.googleapis.com/a1aa/image/GScTDwcOx9ujH_BEllbsmJdzbOEGgJNoelDz6TFQjE0.jpg" width="600"/>
+            </div>
+        </main>
+
+    <footer class="bg-gray-100 p-6 mt-auto rounded-2xl mx-4 mb-4">
+        <div class="flex justify-between items-center">
+         <div class="flex items-center space-x-4">
+          <img alt="Company logo" class="h-12 w-12" height="50" src="https://storage.googleapis.com/a1aa/image/cuaOjjefkCR8PVZh37vJHlHWXrfrvQboCMpvJQmu4-M.jpg" width="50"/>
+          <div>
+           <p class="text-lg text-gray-800">
+            North Architecture 2024
+           </p>
+           <p class="text-sm text-gray-600">
+            3891 Ranchview Dr. Richardson, California 62639
+           </p>
+           <p class="text-sm text-gray-600">
+            000-000-0012
+           </p>
+           <p class="text-sm text-gray-600">
+            north@architecture.com
+           </p>
+          </div>
+         </div>
+         <div class="flex space-x-4">
+          <a class="text-gray-800" href="#">
+           <i class="fab fa-twitter">
+           </i>
+          </a>
+          <a class="text-gray-800" href="#">
+           <i class="fab fa-linkedin">
+           </i>
+          </a>
+          <a class="text-gray-800" href="#">
+           <i class="fab fa-youtube">
+           </i>
+          </a>
+         </div>
+        </div>
+        <div class="flex justify-end space-x-8 mt-4">
+         <a class="text-sm text-gray-800" href="#">
+          Home
+         </a>
+         <a class="text-sm text-gray-800" href="#">
+          About
+         </a>
+         <a class="text-sm text-gray-800" href="#">
+          Projects
+         </a>
+         <a class="text-sm text-gray-800" href="#">
+          Contact
+         </a>
+        </div>
+       </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+/* Home CSS */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.custom-rounded {
+    border-radius: 30px;
+}
+.custom-font {
+    font-family: 'DM Serif Display', serif;
+}
+.btn-hover:hover {
+    background-color: white;
+    color: black;
+    border: 0.1px solid black;
+    transition: all 0.3s ease-in-out;
+}
+.btn-inverse:hover {
+    background-color: black;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+.full-page {
+    height: 50vh;
+}
+
+/* Struktur Organisasi */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+.page-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.org-chart-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.org-chart {
+    display: flex;
+    justify-content: center;
+}
+
+.org-chart ul {
+    padding-top: 20px;
+    position: relative;
+    transition: all 0.5s;
+}
+
+.org-chart li {
+    float: left;
+    text-align: center;
+    list-style-type: none;
+    padding: 20px 5px 0 5px;
+    transition: all 0.5s;
+    position: relative;
+}
+
+.org-chart li::before,
+.org-chart li::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 50%;
+    border-top: 1px solid #ccc;
+    width: 50%;
+    height: 20px;
+}
+
+.org-chart li::after {
+    right: auto;
+    left: 50%;
+    border-left: 1px solid #ccc;
+}
+
+.org-chart li:only-child::after,
+.org-chart li:only-child::before {
+    display: none;
+}
+
+.org-chart li:first-child::before,
+.org-chart li:last-child::after {
+    border: 0 none;
+}
+
+.org-chart li:last-child::before {
+    border-right: 1px solid #ccc;
+    border-radius: 0 5px 0 0;
+}
+
+.org-chart li:first-child::after {
+    border-radius: 5px 0 0 0;
+}
+
+.org-chart ul ul::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    border-left: 1px solid #ccc;
+    width: 0;
+    height: 20px;
+}
+
+.org-chart .position {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.org-chart .title,
+.org-chart .name {
+    padding: 0.5em;
+    text-decoration: none;
+    color: #333;
+    display: inline-block;
+    border-radius: 5px;
+    transition: all 0.5s;
+    width: 200px;
+}
+
+.org-chart .title {
+    background-color: #3498db;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.org-chart .name {
+    background-color: white;
+    border: 1px solid #ccc;
+}
+
+.org-chart .position:hover .title,
+.org-chart .position:hover .name {
+    transform: scale(1.05);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.kaur-units {
+    display: flex;
+    justify-content: center;
+}
+
+.kaur-unit {
+    margin: 0 10px;
+}
