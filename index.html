@@ -1,0 +1,219 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>North Architecture</title>
+    <link rel="icon" type="image/x-icon" href="public/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white">
+    <header class="navbar flex flex-col md:flex-row justify-between items-center p-4 md:p-6 border-b">
+        <div class="mb-4 md:mb-0">
+            <img src="https://storage.googleapis.com/a1aa/image/v66pPL042M-eDYCxc7s7WZRRJ3xkcAH2qCMoqN92jik.jpg" alt="Logo" class="h-8" width="40" height="40">
+        </div>
+        <nav class="w-full md:flex-1">
+            <ul class="flex justify-center space-x-4 md:space-x-8 text-sm md:text-base">
+                <li><a href="#home" class="nav-link text-black hover:text-gray-500 transition-colors px-2" data-section="home">Home</a></li>
+                <li><a href="#about" class="nav-link text-black hover:text-gray-500 transition-colors px-2" data-section="about">About</a></li>
+                <li><a href="#projects" class="nav-link text-black hover:text-gray-500 transition-colors px-2" data-section="projects">Projects</a></li>
+                <li><a href="#contact" class="nav-link text-black hover:text-gray-500 transition-colors px-2" data-section="contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="relative px-4 md:px-6 py-8 md:py-12">
+            <img src="https://storage.googleapis.com/a1aa/image/mxuDJSXYgHTi21g80V4FYyGMhOskCAFWjb7X2WGFh5A.jpg" alt="Modern house with wooden exterior and large glass windows surrounded by trees" class="w-full h-auto custom-rounded object-cover" width="1280" height="700">
+            
+            <div class="absolute top-1/4 left-4 md:left-16 bg-white p-6 md:p-8 rounded-lg shadow-lg max-w-xs md:max-w-md">
+                <h1 class="text-2xl md:text-4xl mb-3 md:mb-4">Redefining the Art of Architecture</h1>
+                <p class="text-base md:text-lg mb-4 md:mb-6">Discover spaces where innovation meets nature.</p>
+                <div class="flex flex-col sm:flex-row space-y-3 sm:space-y-0 sm:space-x-4">
+                    <button class="bg-black text-white px-4 py-2 md:px-6 md:py-3 rounded-lg btn-hover">Explore Projects</button>
+                    <button class="border border-black text-black px-4 py-2 md:px-6 md:py-3 rounded-lg btn-inverse">Learn More</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats Section -->
+        <section class="py-12 md:py-16 px-4 md:px-12">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="w-full md:w-1/2 mb-8 md:mb-0">
+                    <p class="text-xl md:text-2xl lg:text-3xl leading-relaxed">
+                        North Architecture is a dynamic and innovative design firm based in the heart of the architectural world.
+                    </p>
+                </div>
+                <div class="w-full md:w-1/2 flex flex-col space-y-4">
+                    <div class="flex space-x-4">
+                        <div class="bg-gray-50 p-4 md:p-6 rounded-lg text-center w-1/2">
+                            <p class="text-2xl md:text-3xl font-bold">24+</p>
+                            <p class="text-sm md:text-base">Years of Experience</p>
+                        </div>
+                        <div class="bg-gray-50 p-4 md:p-6 rounded-lg text-center w-1/2">
+                            <p class="text-2xl md:text-3xl font-bold">200+</p>
+                            <p class="text-sm md:text-base">Completed Projects</p>
+                        </div>
+                    </div>
+                    <div class="bg-gray-50 p-4 md:p-6 rounded-lg text-center">
+                        <p class="text-2xl md:text-3xl font-bold">100%</p>
+                        <p class="text-sm md:text-base">Client Satisfaction</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="py-12 md:py-16 px-4 md:px-12 bg-gray-50">
+            <div class="flex flex-col lg:flex-row items-center lg:items-start lg:space-x-8">
+                <div class="lg:w-1/2 space-y-6">
+                    <h2 class="text-3xl md:text-4xl font-bold">North Architecture</h2>
+                    <p class="text-base md:text-lg">
+                        Welcome to North Architecture, where dreams take shape and spaces come alive.
+                        Our story is one of passion, innovation, and a relentless pursuit of architectural
+                        excellence. With a legacy spanning over two decades, we have crafted iconic
+                        structures that redefine skylines and inspire awe.
+                    </p>
+                    <p class="text-base md:text-lg">
+                        From the inception of our firm, we have been driven by a singular vision: to create
+                        spaces that not only fulfill functional requirements but also ignite emotions. Our team
+                        of talented architects, designers, and engineers collaborate seamlessly to bring forth
+                        unique designs that push the boundaries of imagination.
+                    </p>
+                </div>
+                <div class="lg:w-1/2 mt-8 lg:mt-0">
+                    <img alt="Modern architectural building surrounded by nature" class="rounded-lg shadow-lg w-full h-auto" src="https://storage.googleapis.com/a1aa/image/C4EJn_qJFvgrka7KumOUPJOpHB-R13kZoffS3meT868.jpg"/>
+                </div>
+            </div>
+        </section>
+
+        <!-- Organization Structure -->
+        <section id="projects" class="py-12 md:py-16 px-4 md:px-12">
+            <div class="container mx-auto">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">STRUKTUR ORGANISASI</h2>
+                
+                <div class="org-chart-container overflow-x-auto">
+                    <div class="org-chart min-w-max">
+                        <ul>
+                            <li>
+                                <div class="position">
+                                    <div class="title">PENASIHAT</div>
+                                    <div class="name">Ade Obih</div>
+                                </div>
+                                <ul>
+                                    <li>
+                                        <div class="position">
+                                            <div class="title">PENGAWAS</div>
+                                            <div class="name">H. Ayi Sudrajat</div>
+                                        </div>
+                                        <ul>
+                                            <li>
+                                                <div class="position">
+                                                    <div class="title">KETUA</div>
+                                                    <div class="name">Dedi Komarna</div>
+                                                </div>
+                                                <ul>
+                                                    <li>
+                                                        <div class="position">
+                                                            <div class="title">SEKRETARIS</div>
+                                                            <div class="name">Nanny Restu Septiani</div>
+                                                        </div>
+                                                        <ul>
+                                                            <li>
+                                                                <div class="position">
+                                                                    <div class="title">BENDAHARA</div>
+                                                                    <div class="name">Asep Adang Rusnawan</div>
+                                                                </div>
+                                                                <ul class="flex flex-wrap justify-center">
+                                                                    <li>
+                                                                        <div class="position">
+                                                                            <div class="title">KAUR UNIT USAHA AIR PAMDES</div>
+                                                                            <div class="name">Cecep Martadinata</div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li>
+                                                                        <div class="position">
+                                                                            <div class="title">KAUR UNIT USAHA KANTIN GOR DESA</div>
+                                                                            <div class="name">Wawan S</div>
+                                                                        </div>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-12 md:py-16 px-4 md:px-12 bg-gray-50">
+            <div class="flex flex-col lg:flex-row items-start justify-between">
+                <div class="lg:w-1/2 mb-8 lg:mb-0">
+                    <h2 class="text-3xl md:text-4xl font-light mb-6">Contact</h2>
+                    <address class="not-italic mb-6 text-sm md:text-base">
+                        <p>3891 Ranchview Dr. Richardson, California 62639</p>
+                        <p>000-000-0012</p>
+                        <p>north@architecture.com</p>
+                    </address>
+                    <form class="space-y-4">
+                        <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
+                            <input class="w-full sm:w-1/2 p-3 border border-gray-300 rounded-md" placeholder="Name" type="text"/>
+                            <input class="w-full sm:w-1/2 p-3 border border-gray-300 rounded-md" placeholder="Email" type="email"/>
+                        </div>
+                        <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
+                            <input class="w-full sm:w-1/2 p-3 border border-gray-300 rounded-md" placeholder="RT" type="text"/>
+                            <input class="w-full sm:w-1/2 p-3 border border-gray-300 rounded-md" placeholder="RW" type="text"/>
+                        </div>
+                        <textarea class="w-full p-3 border border-gray-300 rounded-md h-32" placeholder="Message"></textarea>
+                        <button class="w-full p-3 bg-black text-white rounded-md hover:bg-gray-800 transition-colors" type="submit">Send Message</button>
+                    </form>
+                </div>
+                <div class="lg:w-1/2 lg:ml-12">
+                    <img alt="Modern living room with large windows overlooking a scenic view" class="rounded-lg w-full h-auto" src="https://storage.googleapis.com/a1aa/image/GScTDwcOx9ujH_BEllbsmJdzbOEGgJNoelDz6TFQjE0.jpg"/>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-50 p-6 mt-12 rounded-lg mx-4 mb-4">
+        <div class="flex flex-col md:flex-row justify-between items-start md:items-center">
+            <div class="flex flex-col md:flex-row items-start md:items-center space-y-4 md:space-y-0 md:space-x-4 mb-6 md:mb-0">
+                <img alt="Company logo" class="h-10 w-10" src="https://storage.googleapis.com/a1aa/image/cuaOjjefkCR8PVZh37vJHlHWXrfrvQboCMpvJQmu4-M.jpg"/>
+                <div>
+                    <p class="text-base md:text-lg text-gray-800">North Architecture 2024</p>
+                    <p class="text-xs md:text-sm text-gray-600">3891 Ranchview Dr. Richardson, California 62639</p>
+                    <p class="text-xs md:text-sm text-gray-600">000-000-0012</p>
+                    <p class="text-xs md:text-sm text-gray-600">north@architecture.com</p>
+                </div>
+            </div>
+            <div class="flex space-x-4">
+                <a class="text-gray-800 hover:text-gray-600 transition-colors" href="#" aria-label="Twitter">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a class="text-gray-800 hover:text-gray-600 transition-colors" href="#" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a class="text-gray-800 hover:text-gray-600 transition-colors" href="#" aria-label="YouTube">
+                    <i class="fab fa-youtube"></i>
+                </a>
+            </div>
+        </div>
+        <div class="flex flex-wrap justify-center md:justify-end space-x-4 md:space-x-8 mt-6">
+            <a class="text-sm text-gray-800 hover:text-gray-600 transition-colors" href="#home">Home</a>
+            <a class="text-sm text-gray-800 hover:text-gray-600 transition-colors" href="#about">About</a>
+            <a class="text-sm text-gray-800 hover:text-gray-600 transition-colors" href="#projects">Projects</a>
+            <a class="text-sm text-gray-800 hover:text-gray-600 transition-colors" href="#contact">Contact</a>
+        </div>
+    </footer>
+</html>
