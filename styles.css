@@ -5,8 +5,9 @@
     transition: all 0.3s ease-in-out;
 }
 .btn-inverse:hover {
-    background-color: black;
+    background-color: #3498db;
     color: white;
+    border: 0.1px solid #3498db;
     transition: all 0.3s ease-in-out;
 }
 /* Navbar Fix */
@@ -31,7 +32,43 @@ body.loaded {
 
 /* Font Elegan Minimalist */
 body {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Urbanist', serif;
+}
+
+header {
+    font-family: 'Urbanist', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Urbanist', serif;
+}
+
+p {
+    font-family: 'Urbanist', serif;
+}
+
+nav {
+    font-family: 'Urbanist', serif;
+}
+
+footer {
+    font-family: 'Urbanist', serif;
+}
+
+button {
+    font-family: 'Urbanist', serif;
+}
+
+input, textarea {
+    font-family: 'Urbanist', serif;
+}
+
+.org-chart .title, .org-chart .name {
+    font-family: 'Urbanist', sans-serif;
+}
+
+.header h1, .header p {
+    font-family: 'Urbanist', sans-serif;
 }
 
 /* Animasi Bar */
@@ -72,7 +109,7 @@ html {
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Urbanist', serif;
     line-height: 1.6;
     background-color: #f4f4f4;
 }
