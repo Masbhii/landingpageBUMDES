@@ -22,10 +22,10 @@
         </div>
         <nav class="flex-1">
             <ul class="flex justify-center space-x-8 text-lg">
-                <li><a href="#home" class="text-black hover:text-gray-700 nav-link">Home</a></li>
-                <li><a href="#about" class="text-black hover:text-gray-700 nav-link">About</a></li>
-                <li><a href="#projects" class="text-black hover:text-gray-700 nav-link">Projects</a></li>
-                <li><a href="#contact" class="text-black hover:text-gray-700 nav-link">Contact</a></li>
+                <li><a href="#home" class="text-black hover:text-gray-700 nav-link">Beranda</a></li>
+                <li><a href="#about" class="text-black hover:text-gray-700 nav-link">Tentang Kami</a></li>
+                <li><a href="#galeri" class="text-black hover:text-gray-700 nav-link">Galeri</a></li>
+                <li><a href="#contact" class="text-black hover:text-gray-700 nav-link">Langganan</a></li>
             </ul>
         </nav>
     </header>
@@ -193,14 +193,40 @@
                         </div>
                     </div>
         </section>
+        <section id="galeri">
+        <!-- Header Galeri -->
+        <div class="header">
+            <h1 class="text-4xl font-serif mb-8">Dokumentasi Kami</h1>
+            <p>Sumber Air</p>
+        </div>
+
+        <!-- Photo Grid -->
+        <div class="row"> 
+            <div class="column">
+                <img src="public/images/pipa.jpg" alt="Sumber Air" class="gallery-img">
+                <img src="public/images/pipa2.jpg" alt="Saluran Pipa" class="gallery-img">
+                <img src="public/images/pipa3.jpg" alt="Pipa Air" class="gallery-img">
+                <img src="public/images/pipa4.jpg" alt="Pipa Air 1" class="gallery-img">
+                <img src="public/images/pipa5.jpg" alt="Pipa Air 2" class="gallery-img">
+                <img src="public/images/pipa6.jpg" alt="Pipa Air 3" class="gallery-img">
+            </div>
+        </div>
+
+        <!-- The Modal -->
+        <div id="imageModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="modalImage">
+            <div id="imageCaption"></div>
+        </div>
+        </section>
 
         <main class="flex flex-col lg:flex-row items-start lg:items-center justify-between p-6 lg:p-12" id="contact">
             <div class="lg:w-1/2">
-                <h1 class="text-5xl font-light mb-6">Contact</h1>
+                <h1 class="text-5xl font-light mb-6">Hubungi Kami</h1>
                 <address class="not-italic mb-6">
-                    <p>3891 Ranchview Dr. Richardson, California 62639</p>
-                    <p>000-000-0012</p>
-                    <p>north@architecture.com</p>
+                    <p>Cihideung, Kec. Parongpong, Kabupaten Bandung Barat, Jawa Barat 40559</p>
+                    <p>0812123456789</p>
+                    <p>pamdes@gmail.com</p>
                 </address>
                 <form class="space-y-4">
                     <div class="flex space-x-4">
@@ -211,12 +237,12 @@
                         <input class="w-1/2 p-4 border border-gray-300 rounded-md" placeholder="RT" type="text"/>
                         <input class="w-1/2 p-4 border border-gray-300 rounded-md" placeholder="RW" type="text"/>
                     </div>
-                    <textarea class="w-full p-4 border border-gray-300 rounded-md h-32" placeholder="Message"></textarea>
+                    <textarea class="w-full p-4 border border-gray-300 rounded-md h-32 resize-none" placeholder="Message"></textarea>
                     <button class="w-full p-4 bg-black text-white rounded-md" type="submit">Send Message</button>
                 </form>
             </div>
             <div class="lg:w-1/2 mt-6 lg:mt-0 lg:ml-12">
-                <img alt="Modern living room with large windows overlooking a scenic view" class="rounded-lg" height="400" src="public/images/banner.jpg" width="600"/>
+                <img class="rounded-lg" height="400" src="public/images/banner.jpg" width="600"/>
             </div>
         </main>
 
@@ -229,43 +255,43 @@
             BUMDES Cihideung
            </p>
            <p class="text-sm text-gray-600">
-            3891 Ranchview Dr. Richardson, California 62639
+            Asep Adang Rusnawan
            </p>
            <p class="text-sm text-gray-600">
-            000-000-0012
+            0812123456789
            </p>
            <p class="text-sm text-gray-600">
-            north@architecture.com
+            pamdes@gmail.com
            </p>
           </div>
          </div>
          <div class="flex space-x-4">
           <a class="text-gray-800" href="#">
-           <i class="fab fa-twitter">
+           <i class="fab fa-envelope">
            </i>
           </a>
           <a class="text-gray-800" href="#">
-           <i class="fab fa-linkedin">
+           <i class="fab fa-whatsapp">
            </i>
           </a>
           <a class="text-gray-800" href="#">
-           <i class="fab fa-youtube">
+           <i class="fab fa-facebook">
            </i>
           </a>
          </div>
         </div>
         <div class="flex justify-end space-x-8 mt-4">
          <a class="text-sm text-gray-800" href="#home">
-          Home
+          Beranda
          </a>
          <a class="text-sm text-gray-800" href="#about">
-          About
+          Tentang Kami
          </a>
-         <a class="text-sm text-gray-800" href="#projects">
-          Projects
+         <a class="text-sm text-gray-800" href="#galeri">
+          Galeri
          </a>
          <a class="text-sm text-gray-800" href="#contact">
-          Contact
+          Langganan
          </a>
         </div>
        </footer>
