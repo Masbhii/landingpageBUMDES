@@ -1,59 +1,52 @@
-body {
-    font-family: 'Inter', sans-serif;
-    color: #333;
-    padding-top: 64px; /* Add padding for fixed navbar */
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Playfair Display', serif;
-}
-
-.custom-rounded {
-    border-radius: 12px;
-}
-
 .btn-hover:hover {
     background-color: white;
     color: black;
-    border: 1px solid black;
+    border: 0.1px solid black;
     transition: all 0.3s ease-in-out;
 }
-
 .btn-inverse:hover {
     background-color: black;
     color: white;
     transition: all 0.3s ease-in-out;
 }
-
-/* Navbar styles */
-.navbar {
+/* Navbar Fix */
+header {
     position: fixed;
     top: 0;
-    left: 0;
-    right: 0;
+    width: 100%;
+    background-color: white;
     z-index: 1000;
-    background-color: rgba(255, 255, 255, 0.95);
-    backdrop-filter: blur(5px);
-    transition: all 0.3s ease;
+    transition: background-color 0.3s ease;
 }
 
-.navbar.scrolled {
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+/* Smooth Fade In */
+body {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
 }
 
+body.loaded {
+    opacity: 1;
+}
+
+/* Font Elegan Minimalist */
+body {
+    font-family: 'Playfair Display', serif;
+}
+
+/* Animasi Bar */
 .nav-link {
     position: relative;
-    padding: 8px 0;
 }
 
 .nav-link::after {
     content: '';
     position: absolute;
-    bottom: 0;
-    left: 0;
     width: 0;
     height: 2px;
-    background-color: #000;
+    background: black;
+    bottom: -5px;
+    left: 0;
     transition: width 0.3s ease;
 }
 
@@ -61,29 +54,60 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
 }
 
-.nav-link.active::after {
-    width: 100%;
+/* Message Box Fixed */
+textarea {
+    resize: none;
 }
 
-/* Org Chart Styles */
+/* Smooth Scroll */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Struktur Organisasi */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+.page-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.org-chart-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.org-chart {
+    display: flex;
+    justify-content: center;
+}
+
 .org-chart ul {
     padding-top: 20px;
     position: relative;
     transition: all 0.5s;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
 }
 
 .org-chart li {
+    float: left;
     text-align: center;
     list-style-type: none;
     padding: 20px 5px 0 5px;
     transition: all 0.5s;
     position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 .org-chart li::before,
@@ -113,6 +137,15 @@ h1, h2, h3, h4, h5, h6 {
     border: 0 none;
 }
 
+.org-chart li:last-child::before {
+    border-right: 1px solid #ccc;
+    border-radius: 0 5px 0 0;
+}
+
+.org-chart li:first-child::after {
+    border-radius: 5px 0 0 0;
+}
+
 .org-chart ul ul::before {
     content: '';
     position: absolute;
@@ -128,50 +161,41 @@ h1, h2, h3, h4, h5, h6 {
     flex-direction: column;
     align-items: center;
     margin-bottom: 20px;
-    max-width: 200px;
 }
 
 .org-chart .title,
 .org-chart .name {
     padding: 0.5em;
+    text-decoration: none;
     color: #333;
     display: inline-block;
-    border-radius: 4px;
-    transition: all 0.3s;
-    width: 100%;
+    border-radius: 5px;
+    transition: all 0.5s;
+    width: 200px;
 }
 
 .org-chart .title {
-    background-color: #f0f0f0;
-    font-weight: 600;
+    background-color: #3498db;
+    color: white;
     margin-bottom: 5px;
-    font-size: 0.85rem;
 }
 
 .org-chart .name {
     background-color: white;
-    border: 1px solid #eee;
-    font-size: 0.9rem;
+    border: 1px solid #ccc;
 }
 
-/* Mobile optimizations */
-@media (max-width: 768px) {
-    .org-chart ul {
-        flex-direction: column;
-    }
-    
-    .org-chart li::before,
-    .org-chart li::after,
-    .org-chart ul ul::before {
-        display: none;
-    }
-    
-    .org-chart .position {
-        margin: 10px 0;
-    }
+.org-chart .position:hover .title,
+.org-chart .position:hover .name {
+    transform: scale(1.05);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
-/* Section styles for scroll detection */
-section {
-    scroll-margin-top: 70px; /* Account for fixed navbar height */
+.kaur-units {
+    display: flex;
+    justify-content: center;
+}
+
+.kaur-unit {
+    margin: 0 10px;
 }
